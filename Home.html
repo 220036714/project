@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--begin::Head-->
+<head>
+    <base href="" />
+    <title> My project Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Your page description goes here."> 
+   
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    header {
+      background-color: #f1f1f1;
+      padding: 5px 0 5px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .logo a {
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    nav ul li:hover a {
+      color: #666;
+    }
+    
+    .dropdown {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+    }
+    
+    nav ul li:hover .dropdown {
+      display: block;
+    }
+    
+    .content {
+      height: 2000px; 
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+    
+    .social-icons a {
+      color: #fff;
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    
+    .social-icons a:hover {
+      color: #ccc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img{
+      margin-top: 50px;
+      margin-left: 530px;
+    }
+    
+       </style>
+
+<body>
+	<header class="sticky">
+		<div class="container">
+		  <h1 class="logo"><a href="#">My Website</a></h1>
+		  <nav>
+			<ul class="nav-links">
+                 <li><a href="#">Home</a></li>       
+                <li> 
+                  <a href="#">Links</a>
+                  <ul class="dropdown">
+                    <li><a href="Converter.html">Converter</a></li>
+                    <div></div>
+                    <li><a href="Dice game.html">Dice game</a></li>
+                    <div></div>
+                    <li><a href="Personal Info.html">Personal info</a></li>
+                    <div></div>
+            <li><a href="my social media.html">My social</a></li>
+                  </ul>
+                </li>
+			</ul>
+		  </nav>
+		</div>
+  </header>
+  <img src="twitter-image.png"width="400" height="600" title="eLearning">
+
+  <div class="content">
+    <!-- Your homepage content here --> 
+</div>
+</body>
+</html>
